@@ -1,0 +1,75 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\harsh_7b4wt01\\Downloads\\Assignment2_Kathrotiya_Harshal (1)\\Assignment2_Kathrotiya_Harshal\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B22024E9-6CF7-4F1B-80B4-3916DED9D5EF}|CalculatorApp\\CalculatorApp.csproj|c:\\users\\harsh_7b4wt01\\downloads\\assignment2_kathrotiya_harshal (1)\\assignment2_kathrotiya_harshal\\calculatorapp\\calculatorapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{B22024E9-6CF7-4F1B-80B4-3916DED9D5EF}|CalculatorApp\\CalculatorApp.csproj|solutionrelative:calculatorapp\\calculatorapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B22024E9-6CF7-4F1B-80B4-3916DED9D5EF}|CalculatorApp\\CalculatorApp.csproj|c:\\users\\harsh_7b4wt01\\downloads\\assignment2_kathrotiya_harshal (1)\\assignment2_kathrotiya_harshal\\calculatorapp\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{B22024E9-6CF7-4F1B-80B4-3916DED9D5EF}|CalculatorApp\\CalculatorApp.csproj|solutionrelative:calculatorapp\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B22024E9-6CF7-4F1B-80B4-3916DED9D5EF}|CalculatorApp\\CalculatorApp.csproj|c:\\users\\harsh_7b4wt01\\downloads\\assignment2_kathrotiya_harshal (1)\\assignment2_kathrotiya_harshal\\calculatorapp\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B22024E9-6CF7-4F1B-80B4-3916DED9D5EF}|CalculatorApp\\CalculatorApp.csproj|solutionrelative:calculatorapp\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AppShell.xaml",
+              "DocumentMoniker": "C:\\Users\\harsh_7b4wt01\\Downloads\\Assignment2_Kathrotiya_Harshal (1)\\Assignment2_Kathrotiya_Harshal\\CalculatorApp\\AppShell.xaml",
+              "RelativeDocumentMoniker": "CalculatorApp\\AppShell.xaml",
+              "ToolTip": "C:\\Users\\harsh_7b4wt01\\Downloads\\Assignment2_Kathrotiya_Harshal (1)\\Assignment2_Kathrotiya_Harshal\\CalculatorApp\\AppShell.xaml",
+              "RelativeToolTip": "CalculatorApp\\AppShell.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-03-08T00:42:43.042Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MauiProgram.cs",
+              "DocumentMoniker": "C:\\Users\\harsh_7b4wt01\\Downloads\\Assignment2_Kathrotiya_Harshal (1)\\Assignment2_Kathrotiya_Harshal\\CalculatorApp\\MauiProgram.cs",
+              "RelativeDocumentMoniker": "CalculatorApp\\MauiProgram.cs",
+              "ToolTip": "C:\\Users\\harsh_7b4wt01\\Downloads\\Assignment2_Kathrotiya_Harshal (1)\\Assignment2_Kathrotiya_Harshal\\CalculatorApp\\MauiProgram.cs",
+              "RelativeToolTip": "CalculatorApp\\MauiProgram.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-08T00:42:39.014Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CalculatorApp",
+              "DocumentMoniker": "C:\\Users\\harsh_7b4wt01\\Downloads\\Assignment2_Kathrotiya_Harshal (1)\\Assignment2_Kathrotiya_Harshal\\CalculatorApp\\CalculatorApp.csproj",
+              "RelativeDocumentMoniker": "CalculatorApp\\CalculatorApp.csproj",
+              "ToolTip": "C:\\Users\\harsh_7b4wt01\\Downloads\\Assignment2_Kathrotiya_Harshal (1)\\Assignment2_Kathrotiya_Harshal\\CalculatorApp\\CalculatorApp.csproj",
+              "RelativeToolTip": "CalculatorApp\\CalculatorApp.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAABfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-03-08T00:38:44.99Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

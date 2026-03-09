@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="CalculatorApp.Views.CalculatorPage"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml">
+    <Grid
+        Padding="16"
+        ColumnDefinitions="*,*,*,*"
+        ColumnSpacing="2"
+        RowDefinitions="2*,*,*,*,*,*"
+        RowSpacing="2">
+
+        <Label
+            x:Name="equationLabel"
+            Grid.Row="0"
+            Grid.ColumnSpan="4"
+            FontSize="22"
+            HorizontalTextAlignment="End"
+            LineBreakMode="NoWrap"
+            Text="{Binding EquationLabel}"
+            TextColor="{StaticResource PrimaryColor}"
+            VerticalTextAlignment="Start" />
+
+        <Label
+            x:Name="numbersLabel"
+            Grid.ColumnSpan="4"
+            FontAttributes="Bold"
+            FontSize="64"
+            HorizontalTextAlignment="End"
+            LineBreakMode="NoWrap"
+            Text="{Binding NumbersLabel}"
+            TextColor="{StaticResource SecondaryColor}"
+            VerticalTextAlignment="End" />
+
+        <BoxView
+            Grid.Row="0"
+            Grid.ColumnSpan="4"
+            BackgroundColor="{StaticResource LightGray}"
+            HeightRequest="1"
+            VerticalOptions="End" />
+
+        <Button
+            Grid.Row="1"
+            Grid.Column="0"
+            BackgroundColor="{StaticResource ButtonColor}"
+            Clicked="OpClick"
+            Text="%"
+            TextColor="{StaticResource ButtonTextColor}" />
+
+        <Button
+            Grid.Row="1"
+            Grid.Column="1"
+            BackgroundColor="{StaticResource ButtonColor}"
+            Clicked="CEClick"
+            IsVisible="True"
+            Text="CE"
+            TextColor="{StaticResource ButtonTextColor}" />
+
+        <Button
+            Grid.Row="1"
+            Grid.Column="2"
+            BackgroundColor="{StaticResource ButtonColor}"
+            Clicked="CClick"
+            Text="C"
+            TextColor="{StaticResource ButtonTextColor}" />
+
+        <Button
+            Grid.Row="2"
+            Grid.Column="0"
+            BackgroundColor="{StaticResource ButtonColor}"
+            Clicked="NumClick"
+            Text="7"
+            TextColor="{StaticResource ButtonTextColor}" />
+        <Button
+            Grid.Row="2"
+            Grid.Column="1"
+            BackgroundColor="{StaticResource ButtonColor}"
+            Clicked="NumClick"
+            Text="8"
+            TextColor="{StaticResource ButtonTextColor}" />
+        <Button
+            Grid.Row="2"
+            Grid.Column="2"
+            BackgroundColor="{StaticResource ButtonColor}"
+            Clicked="NumClick"
+            Text="9"
+            TextColor="{StaticResource ButtonTextColor}" />
+
+        <Button
+            Grid.Row="3"
+            Grid.Column="0"
+            BackgroundColor="{StaticResource ButtonColor}"
+            Clicked="NumClick"
+            Text="4"
+            TextColor="{StaticResource ButtonTextColor}" />
+        <Button
+            Grid.Row="3"
+            Grid.Column="1"
+            BackgroundColor="{StaticResource ButtonColor}"
+            Clicked="NumClick"
+            Text="5"
+            TextColor="{StaticResource ButtonTextColor}" />
+        <Button
+            Grid.Row="3"
+            Grid.Column="2"
+            BackgroundColor="{StaticResource ButtonColor}"
+            Clicked="NumClick"
+            Text="6"
+            TextColor="{StaticResource ButtonTextColor}" />
+
+        <Button
+            Grid.Row="4"
+            Grid.Column="0"
+            BackgroundColor="{StaticResource ButtonColor}"
+            Clicked="NumClick"
+            Text="1"
+            TextColor="{StaticResource ButtonTextColor}" />
+        <Button
+            Grid.Row="4"
+            Grid.Column="1"
+            BackgroundColor="{StaticResource ButtonColor}"
+            Clicked="NumClick"
+            Text="2"
+            TextColor="{StaticResource ButtonTextColor}" />
+        <Button
+            Grid.Row="4"
+            Grid.Column="2"
+            BackgroundColor="{StaticResource ButtonColor}"
+            Clicked="NumClick"
+            Text="3"
+            TextColor="{StaticResource ButtonTextColor}" />
+
+        <Button
+            Grid.Row="5"
+            Grid.Column="0"
+            BackgroundColor="{StaticResource ButtonColor}"
+            Clicked="SignClick"
+            IsVisible="True"
+            Text="+/-"
+            TextColor="{StaticResource ButtonTextColor}" />
+        <Button
+            Grid.Row="5"
+            Grid.Column="1"
+            BackgroundColor="{StaticResource ButtonColor}"
+            Clicked="NumClick"
+            Text="0"
+            TextColor="{StaticResource ButtonTextColor}" />
+        <Button
+            Grid.Row="5"
+            Grid.Column="2"
+            BackgroundColor="{StaticResource ButtonColor}"
+            Clicked="DotClick"
+            Text="."
+            TextColor="{StaticResource ButtonTextColor}" />
+
+        <Button
+            Grid.Row="1"
+            Grid.Column="3"
+            BackgroundColor="{StaticResource ButtonColor}"
+            Clicked="OpClick"
+            Text="÷"
+            TextColor="{StaticResource ButtonTextColor}" />
+        <Button
+            Grid.Row="2"
+            Grid.Column="3"
+            BackgroundColor="{StaticResource ButtonColor}"
+            Clicked="OpClick"
+            Text="×"
+            TextColor="{StaticResource ButtonTextColor}" />
+        <Button
+            Grid.Row="3"
+            Grid.Column="3"
+            BackgroundColor="{StaticResource ButtonColor}"
+            Clicked="OpClick"
+            Text="-"
+            TextColor="{StaticResource ButtonTextColor}" />
+        <Button
+            Grid.Row="4"
+            Grid.Column="3"
+            BackgroundColor="{StaticResource ButtonColor}"
+            Clicked="OpClick"
+            Text="+"
+            TextColor="{StaticResource ButtonTextColor}" />
+        <Button
+            Grid.Row="5"
+            Grid.Column="3"
+            BackgroundColor="{StaticResource ButtonColor}"
+            Clicked="EqualClick"
+            Text="="
+            TextColor="{StaticResource ButtonTextColor}" />
+    </Grid>
+</ContentPage>
